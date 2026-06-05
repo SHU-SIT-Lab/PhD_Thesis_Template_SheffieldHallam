@@ -1,6 +1,6 @@
 # Sheffield Hallam University — PhD Thesis LaTeX Template
 
-A structured, parameter-driven LaTeX template for PhD candidates at Sheffield Hallam University (SHU). Built on the `PhDThesisPSnPDF` class, it enforces the SHU thesis layout and front-matter requirements so you can focus entirely on your research content.
+A structured, parameter-driven LaTeX template for PhD candidates at Sheffield Hallam University (SHU). Developed by **Raymond Mawanda**, adapted from the PhD thesis of **Muhammad Aitsam** — see [Credits](#credits) for full attribution.
 
 ---
 
@@ -35,14 +35,13 @@ A structured, parameter-driven LaTeX template for PhD candidates at Sheffield Ha
 
 ## Getting Started
 
-1. **Copy this project** in Overleaf: click the project name in the Overleaf dashboard → *Copy Project*. Give your copy a name such as `PhD_Thesis_YourName`.
-2. Open `config/thesis-info.tex` — this is the **only file you need to edit first**.
-3. Fill in your personal and thesis details (see Step 1 below).
-4. Click **Recompile** to confirm the title page and front matter render correctly.
-5. Begin writing your chapters.
-
----
-
+1. **Go to the GitHub repository** and copy the repo URL:
+   [https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam.git](https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam.git)**New Project** → **Import from GitHub**.
+4. Paste the repository URL and click **Import**. Overleaf will create a new project from the template.
+5. Once the project opens, **set `thesis.tex` as the main file**: right-click it in the file tree → *Set as Main File*.
+6. Open `config/thesis-info.tex` — this is the **only file you need to edit first**. Fill in your name, thesis title, and other details.
+7. Click **Recompile** to confirm the title page and front matter render correctly.
+8. Begin writing your chapters.
 ## Project Structure
 
 ```
@@ -293,9 +292,11 @@ Ensure `config/thesis-info.tex` contains both `\newif\ifAIDisclosure` and either
 
 ## Credits
 
+- **Template developed by:** [Raymond Mawanda](https://www.shu.ac.uk), Sheffield Hallam University.
+- **Adapted from:** the PhD thesis of **Muhammad Aitsam**, available in the SHU Research Archive: [shura.shu.ac.uk/37400/](https://shura.shu.ac.uk/37400/).
 - **Thesis class:** `PhDThesisPSnPDF` by Krishna Kumar (Cambridge Engineering). Available at [github.com/kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template).
-- **Template adaptation:** Customised for Sheffield Hallam University PhD submissions, incorporating SHU-specific front-matter requirements, the SHU Research Ethics declaration format, and the AI Transparency Scale (AITS) disclosure framework.
-
+- **SHU customisations:** Restructured for Sheffield Hallam University PhD submissions, incorporating SHU-specific front-matter requirements (Thesis Guidelines 2024-25), the Research Ethics declaration format, and the AI Transparency Scale (AITS) disclosure framework.
+- **Template repository:** [https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam](https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam)
 ---
 
 *For queries about SHU thesis submission requirements, contact the Research Graduate School or consult your Director of Studies.*
