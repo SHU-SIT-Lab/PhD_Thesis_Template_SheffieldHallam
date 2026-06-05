@@ -82,13 +82,13 @@ Open **`config/thesis-info.tex`**. This is the **Single Edit Source** — changi
 | Field | What to enter | Example |
 |---|---|---|
 | `\ThesisTitle` | Full title of your thesis | `The Role of X in Y` |
-| `\CandidateName` | Your full name | `Jane A. Smith` |
+| `\CandidateName` | Your full name | `Muhammad Aitsam` |
 | `\degreetitle` | Degree being sought | `Doctor of Philosophy` |
-| `\degreedate` | Month and year of submission | `September 2026` |
+| `\degreedate` | Month and year of submission | `September 2027` |
 | `\AwardName` | Award name for declaration | `Doctor of Philosophy` |
-| `\SubmissionDate` | Submission date for declaration | `September 2026` |
-| `\CollegeName` | Your college/department | `College of Business, Technology and Engineering` |
-| `\DirectorsOfStudies` | Your Director of Studies | `Prof. Jane Doe` |
+| `\SubmissionDate` | Submission date for declaration | `September 2027` |
+| `\CollegeName` | Your college/department | `School of Computing and Digital Technologies` |
+| `\DirectorsOfStudies` | Your Director of Studies | `Prof. Alessandro Di Nuovo` |
 | `\Supervisors` | All supervisors | `Dr. A. Smith, Dr. B. Jones` |
 | `\ThesisWordCount` | Approximate word count | `79,500` |
 
