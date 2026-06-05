@@ -35,11 +35,13 @@ A structured, parameter-driven LaTeX template for PhD candidates at Sheffield Ha
 
 ## Getting Started
 
-1. **Go to the GitHub repository** and copy the repo URL:
-   [https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam.git](https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam.git)**New Project** → **Import from GitHub**.
-4. Paste the repository URL and click **Import**. Overleaf will create a new project from the template.
+1. **Copy this GitHub repository URL**:
+   `https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam.git`
+2. **Open [Overleaf](https://www.overleaf.com)** and sign in to your account.
+3. From the Overleaf dashboard, click **New Project** → **Import from GitHub**.
+4. **Paste the repository URL** and click **Import**. Overleaf will create a new project from the template.
 5. Once the project opens, **set `thesis.tex` as the main file**: right-click it in the file tree → *Set as Main File*.
-6. Open `config/thesis-info.tex` — this is the **only file you need to edit first**. Fill in your name, thesis title, and other details.
+6. Open `config/thesis-info.tex` — this is the **only file you need to edit first**. Fill in your name, thesis title, supervisors, and other details.
 7. Click **Recompile** to confirm the title page and front matter render correctly.
 8. Begin writing your chapters.
 ## Project Structure
