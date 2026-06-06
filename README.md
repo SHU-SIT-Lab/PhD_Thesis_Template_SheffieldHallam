@@ -82,13 +82,13 @@ Open **`config/thesis-info.tex`**. This is the **Single Edit Source** — changi
 | Field | What to enter | Example |
 |---|---|---|
 | `\ThesisTitle` | Full title of your thesis | `The Role of X in Y` |
-| `\CandidateName` | Your full name | `Muhammad Aitsam` |
+| `\CandidateName` | Your full name | `Jane A. Smith` |
 | `\degreetitle` | Degree being sought | `Doctor of Philosophy` |
-| `\degreedate` | Month and year of submission | `September 2027` |
+| `\degreedate` | Month and year of submission | `September 2026` |
 | `\AwardName` | Award name for declaration | `Doctor of Philosophy` |
-| `\SubmissionDate` | Submission date for declaration | `September 2027` |
-| `\CollegeName` | Your college/department | `School of Computing and Digital Technologies` |
-| `\DirectorsOfStudies` | Your Director of Studies | `Prof. Alessandro Di Nuovo` |
+| `\SubmissionDate` | Submission date for declaration | `September 2026` |
+| `\CollegeName` | Your college/department | `College of Business, Technology and Engineering` |
+| `\DirectorsOfStudies` | Your Director of Studies | `Prof. Jane Doe` |
 | `\Supervisors` | All supervisors | `Dr. A. Smith, Dr. B. Jones` |
 | `\ThesisWordCount` | Approximate word count | `79,500` |
 
@@ -294,8 +294,8 @@ Ensure `config/thesis-info.tex` contains both `\newif\ifAIDisclosure` and either
 
 ## Credits
 
-- **Template developed by:** [Raymond Mawanda](https://sitlabresearch.uk/people?person=raymond-mawanda), Sheffield Hallam University.
-- **Adapted from:** the PhD thesis of [Muhammad Aitsam](https://sitlabresearch.uk/people?person=muhammad-aitsam), available in the SHU Research Archive: [shura.shu.ac.uk/37400/](https://shura.shu.ac.uk/37400/).
+- **Template developed by:** [Raymond Mawanda](https://www.shu.ac.uk), Sheffield Hallam University.
+- **Adapted from:** the PhD thesis of **Muhammad Aitsam**, available in the SHU Research Archive: [shura.shu.ac.uk/37400/](https://shura.shu.ac.uk/37400/).
 - **Thesis class:** `PhDThesisPSnPDF` by Krishna Kumar (Cambridge Engineering). Available at [github.com/kks32/phd-thesis-template](https://github.com/kks32/phd-thesis-template).
 - **SHU customisations:** Restructured for Sheffield Hallam University PhD submissions, incorporating SHU-specific front-matter requirements (Thesis Guidelines 2024-25), the Research Ethics declaration format, and the AI Transparency Scale (AITS) disclosure framework.
 - **Template repository:** [https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam](https://github.com/SHU-SIT-Lab/PhD_Thesis_Template_SheffieldHallam)
