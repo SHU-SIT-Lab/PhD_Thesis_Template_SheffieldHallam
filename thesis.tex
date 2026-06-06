@@ -1,6 +1,5 @@
 % ============================= Sheffield Hallam University PhD Template =============================
-\documentclass[a4paper,12pt,oneside,numbered,PageStyleIII,print,index,custommargin]{PhDThesisPSnPDF}
-
+\documentclass[a4paper,12pt,oneside,numbered,times,print,index,custommargin]{PhDThesisPSnPDF}
 \input{config/preamble}
 
 % ======================== Thesis Information & Meta-data ========================
@@ -50,10 +49,10 @@
 \end{appendices}
 
 % Bibliography
-{\spacing{0.9}
-\bibliography{bib/bibliography}
-\bibliographystyle{apalike}
-}
+\begin{spacing}{0.9}
+  \bibliography{bib/bibliography}
+  \bibliographystyle{apalike}
+\end{spacing}
 
 % Index
 \printthesisindex

@@ -4,17 +4,13 @@
 
 % ******************************************************************************
 %\newif\ifsetCustomMargin
-\usepackage[a-2b]{pdfx}
-\usepackage{tcolorbox}
-\newtcolorbox{impactnoveltybox}{colback=yellow!10!white,colframe=yellow!50!black,title=Novelty \& Impact}
-
-% ****************************** Custom Margin *********************************
-% Add `custommargin' in the document class options to use this section
+% \usepackage[a-2b]{pdfx}
+\usepackage{mathptmx} % Times Roman font with math support (pre-load to avoid in-
+\usepackage[a4paper]{geometry} % Required for custom margin settings with custommargin class option
 % Set {innerside margin / outerside margin / topmargin / bottom margin}  and
 % other page dimensions
 % SHU margins: left(binding)=40mm, all others=20mm (Thesis Guidelines 2024-25 p.3)
-\AtBeginDocument{%
-  % Override page layout with raw setlength calls after class has loaded
+% Override page layout with raw setlength calls after class has loaded
     \setlength{\oddsidemargin}{14.6mm}%  40mm - 1in(25.4mm) = 14.6mm
   \setlength{\evensidemargin}{-5.4mm}%  20mm - 1in(25.4mm)
   \setlength{\topmargin}{-5.4mm}%       20mm - 1in(25.4mm)
@@ -38,7 +34,6 @@
     \renewcommand{\headrulewidth}{0pt}%
     \renewcommand{\footrulewidth}{0pt}%
   }%
-}
 
 % Ragged bottom avoids extra whitespaces between paragraphs
 \raggedbottom
@@ -48,9 +43,10 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{makecell}
-\usepackage[utf8]{inputenc}
+% \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
 \usepackage{algorithm}      % Floating environment
-\usepackage{algpseudocode}  % Pseudocode layout
 \usepackage{amsmath}
 \usepackage{soul}
 
@@ -62,8 +58,7 @@
 \fi
 
 % ********************Captions and Hyperreferencing / URL **********************
-\RequirePackage[small,bf]{caption}
-\RequirePackage[labelsep=colon,tableposition=top]{caption}
+\usepackage[small,bf,labelsep=colon,tableposition=top]{caption}
 \renewcommand{\figurename}{Figure} %to support older versions of captions.sty
 
 % *************************** Graphics and figures *****************************
@@ -75,7 +70,6 @@
 \usepackage{booktabs} % For professional looking tables
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
-\usepackage{caption}
 \captionsetup[table]{skip=10pt}
 
 % *********************************** SI Units *********************************
@@ -85,7 +79,7 @@
 % \doublespacing
 % \onehalfspacing
 % \singlespacing
-\spacing{1.5}
+\setstretch{1.5}
 
 % *************************** Bibliography  and References ********************
 \ifuseCustomBib
@@ -104,3 +98,8 @@
 
 % *********************** Configure Draft Mode **********************************
 %\setkeys{Gin}{draft=true}
+
+
+% ======================== Suppress TeX Live 2025 microtype showhyphens warning
+\usepackage{silence}
+\WarningFilter{LaTeX}{Command \showhyphens}
